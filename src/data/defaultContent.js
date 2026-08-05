@@ -4,8 +4,8 @@ export const defaultContent = {
     shortName: 'D. Armando',
     slogan: 'Desarrollando experiencias digitales que impulsan tu negocio.',
     email: 'hola@desarrollodiegoarmando.com',
-    phone: '+58 412 000 0000',
-    whatsapp: '584120000000',
+    phone: '+18094249323',
+    whatsapp: '8094249323',
     location: 'Disponible en remoto — Latinoamérica',
     social: {
       instagram: 'https://instagram.com',

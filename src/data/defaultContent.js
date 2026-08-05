@@ -5,7 +5,7 @@ export const defaultContent = {
     slogan: 'Desarrollando experiencias digitales que impulsan tu negocio.',
     email: 'hola@desarrollodiegoarmando.com',
     phone: '+18094249323',
-    whatsapp: '8094249323',
+    whatsapp: '18094249323',
     location: 'Disponible en remoto — Latinoamérica',
     social: {
       instagram: 'https://instagram.com',

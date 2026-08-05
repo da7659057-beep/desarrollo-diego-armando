@@ -30,11 +30,14 @@ export default function Navbar() {
       }`}
     >
       <div className="container-page flex h-20 items-center justify-between">
-        <a href="#inicio" className="flex items-center gap-2 font-display text-base font-semibold text-ink">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-ink p-1.5">
-            <img src="/logo-mark.png" alt={content.brand.name} className="h-full w-full object-contain" />
-          </span>
-          {content.brand.shortName}
+
+        <a href="#inicio" className="flex items-center gap-3 font-display text-base font-semibold text-ink">
+          <img
+            src="/logo.png"
+            alt={content.brand.name}
+            className="h-12 w-auto object-contain"
+          />
+          <span>{content.brand.shortName}</span>
         </a>
 
         <nav className="hidden items-center gap-9 md:flex">
@@ -82,6 +85,7 @@ export default function Navbar() {
                   {l.label}
                 </a>
               ))}
+
               <a
                 href="#contacto"
                 onClick={() => setOpen(false)}
